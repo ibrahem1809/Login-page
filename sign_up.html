@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- BootStrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <!-- Css File -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="brand">
+                    <h1>
+                        <a href="index.html">Login</a>
+                    </h1>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li class="sign-in"><a href="sign_in.html" >Sign In</a></li>
+                        <li class="sign-up"><a href="sign_up.html" >Sign Up</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="home min-vh-100 py-5">
+        <div class="container">
+            <div class="form d-flex flex-column gap-3 p-5 m-auto text-center">
+                <h1>Smart Login System</h1>
+                <input type="text" name="userName" id="userName" placeholder="Enter your name">
+                <input type="email" name="email" id="userEmail" placeholder="Enter your email">
+                <input type="password" name="password" id="password" placeholder="Enter password">
+                <button class="btn" id="sign-up-btn">Login</button>
+                <p class="text-white">You have an account? <a href="sign_in.html">Sign In</a></p>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/sign_up.js"></script>
+</body>
+</html>

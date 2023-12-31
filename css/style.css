@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+#user {
+    color: rgb(23, 162, 184);
+    font-size: 25px;
+    list-style: none;
+    text-decoration: none;
+}
+#logOut {
+    color: orangered;
+    font-size: 25px;
+    list-style: none;
+    text-decoration: none;
+}
+header {
+    background-color: #19242b;
+}
+.brand a{
+    color: rgb(23, 162, 184);
+    text-decoration: none;
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content .brand {
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+}
+ul .sign-in a {
+    list-style: none;
+    text-decoration: none;
+    color: #d0ee62;
+}
+.sign-up a {
+    list-style: none;
+    text-decoration: none;
+    color:#e46037;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+.nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.nav ul#user_info {
+    display: none;
+}
+.nav li a {
+    display: block;
+    min-width: 70px;
+    margin: 0 5px;
+    padding: 5px ;
+    font-size: 32px;
+}
+.home {
+    background-color: #24353f;
+}
+.form {
+    background-color: #24353f;
+    box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+    width: 65%;
+}
+h1 {
+    color: rgb(23, 162, 184);
+}
+
+p a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.btn {
+    color: rgb(23, 162, 184);
+    background-color: transparent;
+    background-image: none;
+    border-color: rgb(23, 162, 184);
+}
+
+.btn:hover {
+    color: white;
+    background-color: rgb(23, 162, 184);
+    border-color: rgb(23, 162, 184);
+}
+
+input {
+    padding: 5px 10px;
+    background-color: inherit;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.20s ease-in-out;
+    outline: 0;
+}
+
+input:focus {
+    border-color: #80bdff;
+    outline: 0;
+}
+
+.main {
+    font-size: 60px;
+}
